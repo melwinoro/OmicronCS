@@ -1,0 +1,4 @@
+﻿namespace OmicronCS_Structures
+{
+
+}
