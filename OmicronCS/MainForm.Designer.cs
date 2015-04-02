@@ -29,27 +29,19 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             this.ui_Icon = new System.Windows.Forms.PictureBox();
-            this.ui_PanelLogin = new MetroFramework.Controls.MetroPanel();
-            this.ui_LabelLogin = new MetroFramework.Controls.MetroLabel();
-            this.in_BtnLoginClear = new MetroFramework.Controls.MetroButton();
-            this.ui_BtnLoginSignIn = new MetroFramework.Controls.MetroButton();
-            this.ui_LabelLoginPassword = new MetroFramework.Controls.MetroLabel();
-            this.ui_LabelLoginUsername = new MetroFramework.Controls.MetroLabel();
-            this.ui_TextBoxPassword = new System.Windows.Forms.TextBox();
-            this.ui_TextBoxUsername = new System.Windows.Forms.TextBox();
             this.ui_TabCtrlMain = new MetroFramework.Controls.MetroTabControl();
             this.ui_TabHome = new MetroFramework.Controls.MetroTabPage();
             this.ui_BtnEditEntry = new MetroFramework.Controls.MetroButton();
@@ -71,7 +63,6 @@
             this.ui_TabCutOff = new MetroFramework.Controls.MetroTabPage();
             this.ui_TabView = new MetroFramework.Controls.MetroTabPage();
             ((System.ComponentModel.ISupportInitialize)(this.ui_Icon)).BeginInit();
-            this.ui_PanelLogin.SuspendLayout();
             this.ui_TabCtrlMain.SuspendLayout();
             this.ui_TabHome.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.metroGrid1)).BeginInit();
@@ -86,127 +77,6 @@
             this.ui_Icon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ui_Icon.TabIndex = 0;
             this.ui_Icon.TabStop = false;
-            // 
-            // ui_PanelLogin
-            // 
-            this.ui_PanelLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(176)))), ((int)(((byte)(214)))));
-            this.ui_PanelLogin.Controls.Add(this.ui_LabelLogin);
-            this.ui_PanelLogin.Controls.Add(this.in_BtnLoginClear);
-            this.ui_PanelLogin.Controls.Add(this.ui_BtnLoginSignIn);
-            this.ui_PanelLogin.Controls.Add(this.ui_LabelLoginPassword);
-            this.ui_PanelLogin.Controls.Add(this.ui_LabelLoginUsername);
-            this.ui_PanelLogin.Controls.Add(this.ui_TextBoxPassword);
-            this.ui_PanelLogin.Controls.Add(this.ui_TextBoxUsername);
-            this.ui_PanelLogin.HorizontalScrollbarBarColor = false;
-            this.ui_PanelLogin.HorizontalScrollbarHighlightOnWheel = false;
-            this.ui_PanelLogin.HorizontalScrollbarSize = 10;
-            this.ui_PanelLogin.Location = new System.Drawing.Point(0, 327);
-            this.ui_PanelLogin.Name = "ui_PanelLogin";
-            this.ui_PanelLogin.Size = new System.Drawing.Size(1024, 292);
-            this.ui_PanelLogin.TabIndex = 1;
-            this.ui_PanelLogin.UseCustomBackColor = true;
-            this.ui_PanelLogin.VerticalScrollbarBarColor = false;
-            this.ui_PanelLogin.VerticalScrollbarHighlightOnWheel = false;
-            this.ui_PanelLogin.VerticalScrollbarSize = 10;
-            // 
-            // ui_LabelLogin
-            // 
-            this.ui_LabelLogin.AutoSize = true;
-            this.ui_LabelLogin.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.ui_LabelLogin.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.ui_LabelLogin.ForeColor = System.Drawing.Color.White;
-            this.ui_LabelLogin.Location = new System.Drawing.Point(189, 104);
-            this.ui_LabelLogin.Name = "ui_LabelLogin";
-            this.ui_LabelLogin.Size = new System.Drawing.Size(64, 25);
-            this.ui_LabelLogin.Style = MetroFramework.MetroColorStyle.White;
-            this.ui_LabelLogin.TabIndex = 0;
-            this.ui_LabelLogin.Text = "LOGIN";
-            this.ui_LabelLogin.UseCustomBackColor = true;
-            this.ui_LabelLogin.UseCustomForeColor = true;
-            this.ui_LabelLogin.UseStyleColors = true;
-            // 
-            // in_BtnLoginClear
-            // 
-            this.in_BtnLoginClear.BackColor = System.Drawing.Color.White;
-            this.in_BtnLoginClear.FontSize = MetroFramework.MetroButtonSize.Tall;
-            this.in_BtnLoginClear.FontWeight = MetroFramework.MetroButtonWeight.Regular;
-            this.in_BtnLoginClear.Highlight = true;
-            this.in_BtnLoginClear.Location = new System.Drawing.Point(680, 240);
-            this.in_BtnLoginClear.Name = "in_BtnLoginClear";
-            this.in_BtnLoginClear.Size = new System.Drawing.Size(93, 29);
-            this.in_BtnLoginClear.TabIndex = 4;
-            this.in_BtnLoginClear.Text = "Clear";
-            this.in_BtnLoginClear.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.in_BtnLoginClear.UseSelectable = true;
-            this.in_BtnLoginClear.UseStyleColors = true;
-            // 
-            // ui_BtnLoginSignIn
-            // 
-            this.ui_BtnLoginSignIn.BackColor = System.Drawing.Color.White;
-            this.ui_BtnLoginSignIn.FontSize = MetroFramework.MetroButtonSize.Tall;
-            this.ui_BtnLoginSignIn.FontWeight = MetroFramework.MetroButtonWeight.Regular;
-            this.ui_BtnLoginSignIn.Highlight = true;
-            this.ui_BtnLoginSignIn.Location = new System.Drawing.Point(578, 240);
-            this.ui_BtnLoginSignIn.Name = "ui_BtnLoginSignIn";
-            this.ui_BtnLoginSignIn.Size = new System.Drawing.Size(93, 29);
-            this.ui_BtnLoginSignIn.TabIndex = 3;
-            this.ui_BtnLoginSignIn.Text = "Sign in";
-            this.ui_BtnLoginSignIn.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.ui_BtnLoginSignIn.UseSelectable = true;
-            this.ui_BtnLoginSignIn.UseStyleColors = true;
-            this.ui_BtnLoginSignIn.Click += new System.EventHandler(this.ui_BtnLoginSignIn_Click);
-            // 
-            // ui_LabelLoginPassword
-            // 
-            this.ui_LabelLoginPassword.AutoSize = true;
-            this.ui_LabelLoginPassword.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.ui_LabelLoginPassword.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.ui_LabelLoginPassword.ForeColor = System.Drawing.Color.White;
-            this.ui_LabelLoginPassword.Location = new System.Drawing.Point(189, 197);
-            this.ui_LabelLoginPassword.Name = "ui_LabelLoginPassword";
-            this.ui_LabelLoginPassword.Size = new System.Drawing.Size(88, 25);
-            this.ui_LabelLoginPassword.Style = MetroFramework.MetroColorStyle.White;
-            this.ui_LabelLoginPassword.TabIndex = 0;
-            this.ui_LabelLoginPassword.Text = "Password";
-            this.ui_LabelLoginPassword.UseCustomBackColor = true;
-            this.ui_LabelLoginPassword.UseCustomForeColor = true;
-            this.ui_LabelLoginPassword.UseStyleColors = true;
-            // 
-            // ui_LabelLoginUsername
-            // 
-            this.ui_LabelLoginUsername.AutoSize = true;
-            this.ui_LabelLoginUsername.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.ui_LabelLoginUsername.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.ui_LabelLoginUsername.ForeColor = System.Drawing.Color.White;
-            this.ui_LabelLoginUsername.Location = new System.Drawing.Point(189, 150);
-            this.ui_LabelLoginUsername.Name = "ui_LabelLoginUsername";
-            this.ui_LabelLoginUsername.Size = new System.Drawing.Size(91, 25);
-            this.ui_LabelLoginUsername.Style = MetroFramework.MetroColorStyle.White;
-            this.ui_LabelLoginUsername.TabIndex = 0;
-            this.ui_LabelLoginUsername.Text = "Username";
-            this.ui_LabelLoginUsername.UseCustomBackColor = true;
-            this.ui_LabelLoginUsername.UseCustomForeColor = true;
-            this.ui_LabelLoginUsername.UseStyleColors = true;
-            // 
-            // ui_TextBoxPassword
-            // 
-            this.ui_TextBoxPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ui_TextBoxPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            this.ui_TextBoxPassword.Location = new System.Drawing.Point(317, 196);
-            this.ui_TextBoxPassword.Name = "ui_TextBoxPassword";
-            this.ui_TextBoxPassword.Size = new System.Drawing.Size(456, 26);
-            this.ui_TextBoxPassword.TabIndex = 2;
-            this.ui_TextBoxPassword.Text = "omicroncs";
-            // 
-            // ui_TextBoxUsername
-            // 
-            this.ui_TextBoxUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ui_TextBoxUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            this.ui_TextBoxUsername.Location = new System.Drawing.Point(317, 149);
-            this.ui_TextBoxUsername.Name = "ui_TextBoxUsername";
-            this.ui_TextBoxUsername.Size = new System.Drawing.Size(456, 26);
-            this.ui_TextBoxUsername.TabIndex = 1;
-            this.ui_TextBoxUsername.Text = "omicroncs";
             // 
             // ui_TabCtrlMain
             // 
@@ -360,15 +230,15 @@
             this.metroGrid1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.metroGrid1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.metroGrid1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Segoe UI Symbol", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle13.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.metroGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI Symbol", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.metroGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.metroGrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.metroGrid1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ui_GridLastName,
@@ -380,14 +250,14 @@
             this.ui_GiridIncome,
             this.ui_GiridTenure,
             this.ui_GridStatus});
-            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle22.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.metroGrid1.DefaultCellStyle = dataGridViewCellStyle22;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.metroGrid1.DefaultCellStyle = dataGridViewCellStyle10;
             this.metroGrid1.EnableHeadersVisualStyles = false;
             this.metroGrid1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.metroGrid1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
@@ -395,18 +265,18 @@
             this.metroGrid1.MultiSelect = false;
             this.metroGrid1.Name = "metroGrid1";
             this.metroGrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.metroGrid1.RowHeadersDefaultCellStyle = dataGridViewCellStyle23;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.metroGrid1.RowHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.metroGrid1.RowHeadersVisible = false;
             this.metroGrid1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.metroGrid1.RowsDefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.metroGrid1.RowsDefaultCellStyle = dataGridViewCellStyle12;
             this.metroGrid1.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.metroGrid1.RowTemplate.DefaultCellStyle.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.metroGrid1.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
@@ -418,9 +288,9 @@
             // ui_GridLastName
             // 
             this.ui_GridLastName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ui_GridLastName.DefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ui_GridLastName.DefaultCellStyle = dataGridViewCellStyle2;
             this.ui_GridLastName.HeaderText = "Last Name";
             this.ui_GridLastName.MinimumWidth = 92;
             this.ui_GridLastName.Name = "ui_GridLastName";
@@ -428,17 +298,17 @@
             // ui_GiridFirstName
             // 
             this.ui_GiridFirstName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ui_GiridFirstName.DefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ui_GiridFirstName.DefaultCellStyle = dataGridViewCellStyle3;
             this.ui_GiridFirstName.HeaderText = "First Name";
             this.ui_GiridFirstName.MinimumWidth = 92;
             this.ui_GiridFirstName.Name = "ui_GiridFirstName";
             // 
             // ui_GiridMiddleName
             // 
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.ui_GiridMiddleName.DefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.ui_GiridMiddleName.DefaultCellStyle = dataGridViewCellStyle4;
             this.ui_GiridMiddleName.HeaderText = "Middle Name";
             this.ui_GiridMiddleName.MinimumWidth = 120;
             this.ui_GiridMiddleName.Name = "ui_GiridMiddleName";
@@ -447,8 +317,8 @@
             // ui_GiridBirthday
             // 
             this.ui_GiridBirthday.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.ui_GiridBirthday.DefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.ui_GiridBirthday.DefaultCellStyle = dataGridViewCellStyle5;
             this.ui_GiridBirthday.HeaderText = "Birthday";
             this.ui_GiridBirthday.MinimumWidth = 92;
             this.ui_GiridBirthday.Name = "ui_GiridBirthday";
@@ -456,8 +326,8 @@
             // ui_GiridEducation
             // 
             this.ui_GiridEducation.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.ui_GiridEducation.DefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.ui_GiridEducation.DefaultCellStyle = dataGridViewCellStyle6;
             this.ui_GiridEducation.HeaderText = "Education";
             this.ui_GiridEducation.MinimumWidth = 92;
             this.ui_GiridEducation.Name = "ui_GiridEducation";
@@ -465,8 +335,8 @@
             // ui_GiridIndustry
             // 
             this.ui_GiridIndustry.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.ui_GiridIndustry.DefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.ui_GiridIndustry.DefaultCellStyle = dataGridViewCellStyle7;
             this.ui_GiridIndustry.HeaderText = "Industry";
             this.ui_GiridIndustry.MinimumWidth = 92;
             this.ui_GiridIndustry.Name = "ui_GiridIndustry";
@@ -474,16 +344,16 @@
             // ui_GiridIncome
             // 
             this.ui_GiridIncome.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.ui_GiridIncome.DefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.ui_GiridIncome.DefaultCellStyle = dataGridViewCellStyle8;
             this.ui_GiridIncome.HeaderText = "Income";
             this.ui_GiridIncome.MinimumWidth = 92;
             this.ui_GiridIncome.Name = "ui_GiridIncome";
             // 
             // ui_GiridTenure
             // 
-            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.ui_GiridTenure.DefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.ui_GiridTenure.DefaultCellStyle = dataGridViewCellStyle9;
             this.ui_GiridTenure.HeaderText = "Tenure";
             this.ui_GiridTenure.MinimumWidth = 80;
             this.ui_GiridTenure.Name = "ui_GiridTenure";
@@ -526,20 +396,16 @@
             // 
             // MainForm
             // 
-            this.AcceptButton = this.ui_BtnLoginSignIn;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1024, 768);
             this.Controls.Add(this.ui_TabCtrlMain);
             this.Controls.Add(this.ui_Icon);
-            this.Controls.Add(this.ui_PanelLogin);
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.Resizable = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             ((System.ComponentModel.ISupportInitialize)(this.ui_Icon)).EndInit();
-            this.ui_PanelLogin.ResumeLayout(false);
-            this.ui_PanelLogin.PerformLayout();
             this.ui_TabCtrlMain.ResumeLayout(false);
             this.ui_TabHome.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.metroGrid1)).EndInit();
@@ -550,14 +416,6 @@
         #endregion
 
         private System.Windows.Forms.PictureBox ui_Icon;
-        private MetroFramework.Controls.MetroPanel ui_PanelLogin;
-        private System.Windows.Forms.TextBox ui_TextBoxPassword;
-        private System.Windows.Forms.TextBox ui_TextBoxUsername;
-        private MetroFramework.Controls.MetroLabel ui_LabelLoginUsername;
-        private MetroFramework.Controls.MetroLabel ui_LabelLoginPassword;
-        private MetroFramework.Controls.MetroButton in_BtnLoginClear;
-        private MetroFramework.Controls.MetroButton ui_BtnLoginSignIn;
-        private MetroFramework.Controls.MetroLabel ui_LabelLogin;
         private MetroFramework.Controls.MetroTabControl ui_TabCtrlMain;
         private MetroFramework.Controls.MetroTabPage ui_TabHome;
         private MetroFramework.Controls.MetroTabPage ui_TabCutOff;

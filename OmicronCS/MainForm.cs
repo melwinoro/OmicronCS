@@ -33,41 +33,5 @@ namespace OmicronCS
         {
             ui_ComboBoxViewData.SelectedIndex = (int) EComboBoxSelectedView.RecentlyAdded;
         }
-
-        private void ui_BtnLoginSignIn_Click(object sender, System.EventArgs e)
-        {
-            handleBtnLoginSignInClick();
-        }
-
-        private void in_BtnLoginClear_Click(object sender, EventArgs e)
-        {
-            handleBtnLoginClearClick();
-        }
-
-        public void handleBtnLoginSignInClick()
-        {
-            string username = ui_TextBoxUsername.Text.ToString();
-            string password = ui_TextBoxPassword.Text.ToString();
-
-            LoginMgmt loginMgmt = new LoginMgmt();
-            bool isLoginValid = loginMgmt.isLoginCredentialsValid(username, password);
-
-            if (isLoginValid)
-            {
-                ui_PanelLogin.Dispose();
-                ui_TabCtrlMain.Visible = true;
-            }
-            else
-            {
-                loginMgmt.showLoginError(this);
-                loginMgmt.clearLoginTextBox(ui_TextBoxUsername, ui_TextBoxPassword);
-            }
-        }
-
-        public void handleBtnLoginClearClick()
-        {
-            LoginMgmt loginMgmt = new LoginMgmt();
-            loginMgmt.clearLoginTextBox(ui_TextBoxUsername, ui_TextBoxPassword);
-        }
     }
 }
